@@ -1,5 +1,7 @@
 <header>
-	<h3>Business Site</h3>
+	<div class="logo">
+		<a href="index.php">Business Site</a>
+	</div>
 	<nav>
 		<a href="index.php">Home</a> |
 		<a href="contact.php">Contact</a> |

@@ -1,23 +1,69 @@
-html {
-  font-family: sans-serif; /* 1 */
-  -ms-text-size-adjust: 100%; /* 2 */
-  -webkit-text-size-adjust: 100%; /* 2 */
-}
-article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
-  display: block;
-}
-
-a {
-  background-color: transparent;
-}
-
-a:active, a:hover {
-  outline: 0;
-}
-
-
-
-
 body {
-	background-image: url("/background.jpg");
+	font-family: Lato, sans-serif;
+	margin: 0;
+	background-image: url("background.jpg");
+}
+.logo {
+	font-size: 36px;
+	margin: 0;
+	background-color:#FFF;
+	font-family: Lobster, sans-serif;
+	padding: 10px;
+}
+.logo a:link, .logo a:visited {
+	text-decoration: none;
+	color: #000;
+}
+nav {
+	background-color: #000;
+	color: #FFF;
+	padding: 3px;
+	font-family: Lato, sans-serif;
+	margin: 0;
+}
+nav a {
+	font-family: Lato, sans-serif;
+	color: #FFF;
+	text-decoration: none;
+	padding: 5px;
+	display:inline-block;
+	font-weight: 300;
+}
+form {
+	display:inline;
+}
+main {
+	background-color: #fff;
+	opacity: 0.8;
+	border-radius: 10px;
+	padding: 5px;
+	margin: 12px;
+}
+main h2 {
+	color: #009900;
+	font-weight: 300;
+}
+main a {
+	text-decoration: none;
+	color: #00CC00;
+	font-weight: 300;
+}
+
+form {
+	padding: 5px;
+	display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+footer {
+	color: #FFF;
+	margin: 10px;
 }
