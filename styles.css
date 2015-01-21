@@ -1,33 +1,44 @@
-body {
+body, nav, nav a,  {
 	font-family: Lato, sans-serif;
+}
+
+body, nav, .logo {
 	margin: 0;
+}
+a {
+	text-decoration: none;
+}
+nav, nav a, footer {
+	color: #FFF;
+}
+
+main a, nav a,  {
+	font-weight: 300;
+}
+
+form, nav a {
+	display: inline-block;
+}
+
+body {
 	background-image: url("background.jpg");
 }
 .logo {
 	font-size: 36px;
-	margin: 0;
 	background-color:#FFF;
 	font-family: Lobster, sans-serif;
 	padding: 10px;
 }
 .logo a:link, .logo a:visited {
-	text-decoration: none;
 	color: #000;
 }
 nav {
 	background-color: #000;
-	color: #FFF;
 	padding: 3px;
-	font-family: Lato, sans-serif;
-	margin: 0;
 }
 nav a {
-	font-family: Lato, sans-serif;
 	color: #FFF;
-	text-decoration: none;
 	padding: 5px;
-	display:inline-block;
-	font-weight: 300;
 }
 form {
 	display:inline;
@@ -44,26 +55,12 @@ main h2 {
 	font-weight: 300;
 }
 main a {
-	text-decoration: none;
 	color: #00CC00;
-	font-weight: 300;
 }
 
 form {
 	padding: 5px;
-	display: inline-block;
 }
-
-
-
-
-
-
-
-
-
-
 footer {
-	color: #FFF;
 	margin: 10px;
 }

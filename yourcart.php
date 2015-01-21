@@ -21,6 +21,7 @@ if ($_GET["product"] == 1){
 	<head>
 		<meta charset="UTF-8">
 		<title>Business Site</title>
+		<link rel="stylesheet" href="normalize.css">
 		<link rel="stylesheet" href="styles.css">
 		<link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
