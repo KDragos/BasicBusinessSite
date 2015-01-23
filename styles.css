@@ -1,7 +1,6 @@
-body, nav, nav a,  {
+body {
 	font-family: Lato, sans-serif;
 }
-
 body, nav, .logo {
 	margin: 0;
 }
@@ -11,17 +10,16 @@ a {
 nav, nav a, footer {
 	color: #FFF;
 }
-
 main a, nav a,  {
 	font-weight: 300;
 }
-
 form, nav a {
 	display: inline-block;
 }
-
 body {
 	background-image: url("background.jpg");
+/*	background-size: cover;  <-- Brad said he'd help me with this. 
+	min-height: 100%;*/
 }
 .logo {
 	font-size: 36px;
@@ -57,7 +55,6 @@ main h2 {
 main a {
 	color: #00CC00;
 }
-
 form {
 	padding: 5px;
 }
