@@ -6,7 +6,6 @@ foreach ($productList as $id=> $product_name) {
 	$options .= "<option value=\"$id\">$product_name</option>";
 }
 
-
  ?>
 
 <!DOCTYPE html>
@@ -23,7 +22,7 @@ foreach ($productList as $id=> $product_name) {
 		<?php include_once("header.php") ?>
 
 		<main>
-			<h2>Browse Products</h2>
+			<h1>Browse Products</h1>
 			<form action="yourcart.php" method="GET">
 				<span>Product:</span>
 				
@@ -32,7 +31,7 @@ foreach ($productList as $id=> $product_name) {
 				</select>
 				
 				<span>Quantity:</span>
-				<input type="number" name="number">
+				<input type="number" name="number" min="0" required>
 				<button>Add to cart</button>
 			</form>
 		</main>

@@ -1,63 +1,57 @@
 body {
-	font-family: Lato, sans-serif;
-}
-body, nav, .logo {
 	margin: 0;
-}
-a {
-	text-decoration: none;
-}
-nav, nav a, footer {
-	color: #FFF;
-}
-main a, nav a,  {
-	font-weight: 300;
-}
-form, nav a {
-	display: inline-block;
-}
-body {
+	font-family: Lato, sans-serif;
 	background-image: url("background.jpg");
-/*	background-size: cover;  <-- Brad said he'd help me with this. 
-	min-height: 100%;*/
+	background-size: cover;  
 }
 .logo {
 	font-size: 36px;
+	margin: 0;
 	background-color:#FFF;
 	font-family: Lobster, sans-serif;
 	padding: 10px;
 }
-.logo a:link, .logo a:visited {
+.logo a, .logo a:visited {
 	color: #000;
 }
 nav {
 	background-color: #000;
+	color: #FFF;
 	padding: 3px;
+	margin: 0;
 }
 nav a {
 	color: #FFF;
+	font-weight: 300;
 	padding: 5px;
+	display: inline-block;
 }
-form {
-	display:inline;
-}
+
 main {
-	background-color: #fff;
-	opacity: 0.8;
+	background-color: #efe;
+	opacity: 0.92;
 	border-radius: 10px;
 	padding: 5px;
 	margin: 12px;
+	min-height: 75px;
 }
-main h2 {
+main h1 {
 	color: #009900;
 	font-weight: 300;
+	margin: 7px;
 }
 main a {
 	color: #00CC00;
+	font-weight: 300;
 }
 form {
-	padding: 5px;
+	margin: 7px;
+	display: inline-block;
+}
+a {
+	text-decoration: none;
 }
 footer {
 	margin: 10px;
+	color: #FFF;
 }

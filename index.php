@@ -13,7 +13,7 @@
 		<?php include_once("header.php") ?>
 
 		<main>
-			<h2>Welcome to our shopping cart.</h2>
+			<h1>Welcome to our shopping cart.</h1>
 			<p>Do you want to see our list of <a href="browse.php">products</a>?</p>
 		</main>
 

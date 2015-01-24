@@ -4,13 +4,14 @@ require_once("productinventory.php");
 
 $quantity = $_GET["number"];
 $product = $_GET["id_num"];
-
-$msg = "You're ordering $quantity {$productList[$product]}(s).";
-if ($quantity <= 0) {
-	$msg = "Please choose a valid quantity.";
-} 
-if ($productList[$product] == "MacBook" && $quantity > 7) {
-	$msg = "We don't have enough {$productList[$product]} in stock. Please try again later.";
+$msg = "";
+if (array_key_exists($product, $productList)) {
+	$msg = "You're ordering $quantity {$productList[$product]}(s).";
+	if ($productList[$product] == "MacBook" && $quantity > 7) {
+		$msg = "We don't have enough {$productList[$product]} in stock. Please try again later.";
+	}
+} else {
+	$msg = "You've chosen a product that doesn't exist.";
 }
 
 ?>
@@ -30,8 +31,8 @@ if ($productList[$product] == "MacBook" && $quantity > 7) {
 		<?php include_once("header.php") ?>
 			
 			<main>
-				<h2>Your Cart</h2>
-				<h2> <?php echo $msg; ?> </h2> 
+				<!-- <h1>Your Cart</h1> -->
+				<h1> <?php echo $msg; ?> </h1> 
 			</main>
 
 		<?php include_once("footer.php") ?>
