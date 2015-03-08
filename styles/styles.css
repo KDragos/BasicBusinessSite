@@ -1,9 +1,10 @@
 body {
 	margin: 0;
 	font-family: Lato, sans-serif;
-	background-image: url("background.jpg");
+	background-image: url("../images/background.jpg");
 	background-size: cover;  
 }
+
 .logo {
 	font-size: 36px;
 	margin: 0;
@@ -11,15 +12,18 @@ body {
 	font-family: Lobster, sans-serif;
 	padding: 10px;
 }
+
 .logo a, .logo a:visited {
 	color: #000;
 }
+
 nav {
 	background-color: #000;
 	color: #FFF;
 	padding: 3px;
 	margin: 0;
 }
+
 nav a {
 	color: #FFF;
 	font-weight: 300;
@@ -35,22 +39,27 @@ main {
 	margin: 12px;
 	min-height: 75px;
 }
+
 main h1 {
 	color: #009900;
 	font-weight: 300;
 	margin: 7px;
 }
+
 main a {
 	color: #00CC00;
 	font-weight: 300;
 }
+
 form {
 	margin: 7px;
 	display: inline-block;
 }
+
 a {
 	text-decoration: none;
 }
+
 footer {
 	margin: 10px;
 	color: #FFF;

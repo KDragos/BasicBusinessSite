@@ -1,2 +1,3 @@
 # BasicBusinessSite
-A basic webpage to practice including HTML forms.
+
+A basic webpage to practice HTML forms and PHP includes.

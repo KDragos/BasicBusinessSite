@@ -1,10 +1,3 @@
 <?php 
-$productList = [
-	"1" => "MacBook",
-	"2" => "Windows",
-	"3" => "Ubuntu",
-	"4" => "iPad"
-];
-
-
-?>
+// This serves as a fake database for this project.
+$productList = ["MacBook", "Windows", "Ubuntu", "iPad"];
